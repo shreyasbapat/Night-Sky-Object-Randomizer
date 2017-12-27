@@ -4,18 +4,7 @@ from datetime import datetime
 
 MIN_ALTITUDE = '10:00:00'
 
-# Exam Date 28-12-2013
-iiserb = ephem.Observer()
-iiserb.lat = '23.289002'
-iiserb.lon = '77.273153'
-iiserb.elevation = 500
-#iiserb.date = '2013/12/28'
 
-# exam date 26-12-2015
-ratibad = ephem.Observer()
-ratibad.lat = '23.166765'
-ratibad.lon = '77.325822'
-ratibad.elevation = 500
 
 # exam date 23-12-2017
 radharaman = ephem.Observer()
